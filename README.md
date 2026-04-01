@@ -11,6 +11,7 @@ A full-stack task management application built with Flutter and Flask, featuring
 - Create, read, update, delete tasks
 - Status filtering
 - Search functionality
+- Task dependency (blocked tasks until prerequisite is completed)
 
 ## How to Run
 
@@ -25,7 +26,9 @@ flutter pub get
 flutter run
 
 ## Testing
-Basic API tests can be written using unittest to validate endpoints like GET /api/tasks and POST /api/tasks.
+Basic API tests are included using Python's unittest module to validate endpoints such as:
+- GET /api/tasks
+- POST /api/tasks
 
 ## Live API
 https://flodo-task-manager-backend.onrender.com/api/tasks
