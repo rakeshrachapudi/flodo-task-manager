@@ -1,0 +1,16 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/instance/
+
+# Flutter
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.idea/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+
+# OS
+.DS_Store
+Thumbs.db
