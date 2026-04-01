@@ -10,7 +10,7 @@ A full-stack task management application built with Flutter and Flask, featuring
 ## Features
 - Create, read, update, delete tasks
 - Status filtering
-- Search functionality
+- Search functionality with debounced input
 - Task dependency (blocked tasks until prerequisite is completed)
 
 ## How to Run
