@@ -21,3 +21,6 @@ python run.py
 cd flutter_app  
 flutter pub get  
 flutter run
+
+## Testing
+Basic API tests can be written using unittest to validate endpoints like GET /api/tasks and POST /api/tasks.
