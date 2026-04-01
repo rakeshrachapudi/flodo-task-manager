@@ -36,12 +36,12 @@ https://flodo-task-manager-backend.onrender.com/api/tasks
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d13f1f8d-140b-471c-a59d-9d6421caa8f2" width="180"/>
-  <img src="https://github.com/user-attachments/assets/4d306b76-a601-4ad4-a9c7-9d510dca30bd" width="180"/>
-  <img src="https://github.com/user-attachments/assets/c509e28c-ba40-491e-875c-0a3d189fc4e7" width="180"/>
-  <img src="https://github.com/user-attachments/assets/0a69d0bd-40ea-477c-8eba-6b2e19066cdf" width="180"/>
-  <img src="https://github.com/user-attachments/assets/1661d908-a1ed-4b72-82a7-dd38f7727a08" width="180"/>
-  <img src="https://github.com/user-attachments/assets/fbbc8e21-aa1a-48db-9912-6aa9d9acbf92" width="180"/>
+  <img src="https://github.com/user-attachments/assets/d13f1f8d-140b-471c-a59d-9d6421caa8f2" width="150"/>
+  <img src="https://github.com/user-attachments/assets/4d306b76-a601-4ad4-a9c7-9d510dca30bd" width="150"/>
+  <img src="https://github.com/user-attachments/assets/c509e28c-ba40-491e-875c-0a3d189fc4e7" width="150"/>
+  <img src="https://github.com/user-attachments/assets/0a69d0bd-40ea-477c-8eba-6b2e19066cdf" width="150"/>
+  <img src="https://github.com/user-attachments/assets/1661d908-a1ed-4b72-82a7-dd38f7727a08" width="150"/>
+  <img src="https://github.com/user-attachments/assets/fbbc8e21-aa1a-48db-9912-6aa9d9acbf92" width="150"/>
 </p>
 
 ## Notes
