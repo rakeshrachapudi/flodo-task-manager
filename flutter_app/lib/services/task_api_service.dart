@@ -6,10 +6,17 @@ import '../models/task.dart';
 class TaskApiService {
   final String _baseUrl = AppConstants.baseUrl;
 
-  Future<List<Task>> fetchTasks({String search = '', String status = 'All'}) async {
-    final uri = Uri.parse(
-      '$_baseUrl/tasks?search=${Uri.encodeComponent(search)}&status=${Uri.encodeComponent(status)}',
-    );
+  Future<List<Task>> fetchTasks({
+    String search = '',
+    String? status, // ✅ FIX: nullable
+  }) async {
+    final queryParams = {
+      'search': search,
+      if (status != null) 'status': status, // ✅ only include if not null
+    };
+
+    final uri = Uri.parse('$_baseUrl/tasks')
+        .replace(queryParameters: queryParams);
 
     final response = await http.get(uri);
 

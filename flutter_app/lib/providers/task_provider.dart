@@ -26,8 +26,9 @@ class TaskProvider extends ChangeNotifier {
 
     try {
       _tasks = await _apiService.fetchTasks(
-        search: _searchQuery,
-        status: _statusFilter,
+        search: _searchQuery.trim(),
+        // ✅ FIX: convert "All" → null
+        status: _statusFilter == 'All' ? null : _statusFilter,
       );
     } catch (e) {
       _error = e.toString();
